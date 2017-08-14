@@ -1,6 +1,0 @@
-framework module PetroneAPI {
-  umbrella header "PetroneAPI.h"
-
-  export *
-  module * { export * }
-}

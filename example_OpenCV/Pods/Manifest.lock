@@ -1,0 +1,21 @@
+PODS:
+  - PetroneAPI (0.0.2)
+
+DEPENDENCIES:
+  - PetroneAPI (from `https://github.com/petrone/PetroneAPI_swift.git`)
+
+EXTERNAL SOURCES:
+  PetroneAPI:
+    :git: https://github.com/petrone/PetroneAPI_swift.git
+
+CHECKOUT OPTIONS:
+  PetroneAPI:
+    :commit: c1fffb3361469d517afed47d721c55fdbc208a83
+    :git: https://github.com/petrone/PetroneAPI_swift.git
+
+SPEC CHECKSUMS:
+  PetroneAPI: aa75718d2f7f0f1dbe7beb2439a37299e79ac2e2
+
+PODFILE CHECKSUM: 81b63fc642d12fb3e7356384fd65251678e2e977
+
+COCOAPODS: 1.2.1

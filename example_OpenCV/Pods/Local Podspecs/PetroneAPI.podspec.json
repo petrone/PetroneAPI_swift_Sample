@@ -1,0 +1,26 @@
+{
+  "name": "PetroneAPI",
+  "version": "0.0.2",
+  "summary": "PetroneAPI for iOS.",
+  "homepage": "https://github.com/petrone/PetroneAPI_swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BYROBOT": "dev@byrobot.co.kr"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "source": {
+    "git": "https://github.com/petrone/PetroneAPI_swift.git",
+    "tag": "0.0.2",
+    "submodules": true
+  },
+  "source_files": [
+    "PetroneAPI",
+    "PetroneAPI/**/*.{h,m,swift}"
+  ],
+  "frameworks": "CoreBluetooth"
+}

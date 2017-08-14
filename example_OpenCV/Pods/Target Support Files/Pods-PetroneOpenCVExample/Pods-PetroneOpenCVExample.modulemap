@@ -1,0 +1,6 @@
+framework module Pods_PetroneOpenCVExample {
+  umbrella header "Pods-PetroneOpenCVExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
