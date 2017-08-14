@@ -17,6 +17,5 @@ PetroneAPI_swift sample project
 * https://github.com/Fl0p/OpenCV-iOS
 
 ## Sample image
-![image1](http://byrobot.co.kr/github/IMG_1569.PNG)
-![image2](http://byrobot.co.kr/github/IMG_1570.PNG)
-![image3](http://byrobot.co.kr/github/IMG_1571.PNG)
+![image1](http://byrobot.co.kr/github/IMG_1570.PNG)
+![image2](http://byrobot.co.kr/github/IMG_1571.PNG)
