@@ -67,7 +67,7 @@ class ViewController: UIViewController, JoypadProtocol, PetroneProtocol {
         
         txtPosition?.text = "\(positionLeft.x),\(positionLeft.y) | \(positionRight.x),\(positionRight.y)"
         
-        viewPetroneMode?.isHidden = true
+        self.viewPetroneMode?.isHidden = true
         timer = Timer.scheduledTimer(timeInterval: 0.1, target: self,   selector: (#selector(ViewController.updateControl)), userInfo: nil, repeats: true)
     }
     
@@ -195,6 +195,19 @@ class ViewController: UIViewController, JoypadProtocol, PetroneProtocol {
         self.isScanning = false
         self.viewPetroneMode?.isHidden = false
     }
+    
+    func petrone(_ disconnectedReason:String ) {
+        self.btnScan?.isHidden = false
+        self.viewPetroneMode?.isHidden = true
+        timer.invalidate()
+        
+        for child in self.view.subviews {
+            if child.isKind(of: Joypad.self) {
+                child.removeFromSuperview()
+            }
+        }
+    }
+    
     
     func petrone(_ petroneController: PetroneController, recvFromPetrone response: UInt8) {
     }
